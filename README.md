@@ -46,4 +46,22 @@
 
 Как мы видим, чтения имеют плохое качество, поэтому реплики и контроль необходимо подрезать. После подрезания качество улучшилось, но незначительно.
 
+### Статистика на основе работы bowtie
+
+Как мы видим, процент выравниваний получился низким, бОльшая часть не была выровнена. Это связано с тем, что мы выполняли выравнивание на одну хромосому, это лишь небольшая доля всего генома человека.
+
+### Диаграммы пересечения 
+
+Диаграммы пересечения представлены в папке venn_results. 
+
+- [Intervene_venn1.pdf](https://github.com/LanaShhh/hse_hw2_chip/blob/main/venn_results/Intervene_venn1.pdf) - пересечение наших пиков FNS и ENCODE пиков
+
+- [Intervene_venn2.pdf](https://github.com/LanaShhh/hse_hw2_chip/blob/main/venn_results/Intervene_venn2.pdf) - пересечение ENCODE пиков и наших пиков FNS
+
+- [Intervene_venn3.pdf](https://github.com/LanaShhh/hse_hw2_chip/blob/main/venn_results/Intervene_venn3.pdf) - пересечение наших пиков FNT и ENCODE пиков
+
+- [Intervene_venn4.pdf](https://github.com/LanaShhh/hse_hw2_chip/blob/main/venn_results/Intervene_venn4.pdf) - пересечение ENCODE пиков и наших пиков FNT
+
+Как мы видим, пересечений очень мало. Это связано с тем, что выравнивание происходило на одну хромосому, в то время как ENCODE пики расссчитывались на всех хромосомах. 
+
 

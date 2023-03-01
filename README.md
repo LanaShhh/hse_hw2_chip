@@ -6,7 +6,7 @@
 
 - [venn_results](https://github.com/LanaShhh/hse_hw2_chip/tree/main/venn_results) - файлы пересечения, сгенерированные intervene
 
-- HW2.ipynb - код
+- [HW2.ipynb](https://github.com/LanaShhh/hse_hw2_chip/tree/main/HW2.ipynb) - код
 
 ## Отчет
 
